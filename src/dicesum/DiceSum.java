@@ -77,3 +77,4 @@ public class DiceSum extends DieRoll {
         return r1.toString() + " & " + r2.toString();
     }
 }
+// Comment: Thêm chức năng validate để kiểm tra r1 và r2 trước khi tung xúc xắc, tránh lỗi runtime.
